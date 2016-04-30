@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>zplug</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" type="text/css" href="fonts/infinity.css"/>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome-animation.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="https://github.com/zplug"  onclick = $("#menu-close").click(); >zplug</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >Installation</a>
+            </li>
+            <li>
+                <a href="#services" onclick = $("#menu-close").click(); >Features</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Works</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>zplug</h1>
+            <!-- <h1 style="font-family:'Infinity';font-weight:normal">zplug</h1> -->
+            <!-- <h1><i class="fa fa-trash faa-vertical animated-hover"></i>zplug</h1> -->
+            <h3>A next-generation plugin manager for zsh</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Installation</h2>
+                    <div class="box">
+                    <p class="lead">
+                        <span class="fa-stack fa-lg faa-vertical animated-hover">
+                          <i class="fa fa-square fa-stack-2x"></i>
+                          <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <code>curl -L get.zplug.sh | zsh</code>
+                    </p>
+                    <a href="#" class="btn btn-dark">View More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Features</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-line-chart fa-stack-1x text-primary" aria-hidden="true"></i>
+                            </span>
+                                <h4>
+                                    <strong>Super-fast</strong>
+                                </h4>
+                                <p>test test test test test test test test test test test test test test</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cubes fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Can manage everything</strong>
+                                </h4>
+                                <p>test test test test test test test test test test test test test test</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cogs fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>High Customizability</strong>
+                                </h4>
+                                <p>test test test test test test test test test test test test test test</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-tags fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>National language</strong>
+                                </h4>
+                                <p>test test test test test test test test test test test test test test</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <!-- <h1>zplug</h1> -->
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Works</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <!--
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/work-1.gif">
+                                </a>
+                                -->
+                                <a class="img-re-image-link" href="img/work-1.gif" data-lightbox="example-1">
+                                    <img class="img-responsive img-centered" src="img/work-1.gif" alt="work-1"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <!--
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/work-2.png">
+                                </a>
+                                -->
+                                <a class="img-re-image-link" href="img/work-2.gif" data-lightbox="example-1">
+                                    <img class="img-responsive img-centered" src="img/work-2.gif" alt="work-2"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <!--
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/work-3.gif">
+                                </a>
+                                -->
+                                <a class="img-re-image-link" href="img/work-3.gif" data-lightbox="example-1">
+                                    <img class="img-responsive img-centered" src="img/work-3.gif" alt="work-3"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <!--
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/work-4.gif">
+                                </a>
+                                -->
+                                <a class="img-re-image-link" href="img/work-4.gif" data-lightbox="example-1">
+                                    <img class="img-responsive img-centered" src="img/work-4.gif" alt="work-4"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a href="#" class="btn btn-dark">View More Items</a>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>The articles about zplug</h3>
+                    <a href="#" class="btn btn-lg btn-light">Qiita</a>
+                    <a href="#" class="btn btn-lg btn-dark">Blog</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <div id="contact" class="container">
+            <div class="text-vertical-center">
+                <section class="github-share hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <iframe src="https://ghbtns.com/github-btn.html?user=b4b4r07&repo=zplug&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=b4b4r07&repo=zplug&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+                        </div>
+                    </div>
+                </section>
+                <br>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>ZPLUG Project</strong>
+                    </h4>
+                    <p>zplug is a next-generation plugin manager for zsh</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-user fa-fw"></i>b4b4r07 (BABAROT)</li>
+                        <br>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="https://github.com/b4b4r07/zplug/issues">b4b4r07@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://github.com/b4b4r07"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://zplug.herokuapp.com"><i class="fa fa-slack fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; b4b4r07 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+    <script src="js/lightbox.js"></script>
+</body>
+
+</html>
