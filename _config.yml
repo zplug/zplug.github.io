@@ -1,7 +1,7 @@
 encoding: utf-8
 exclude: [".gitignore", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 sass:
-	style: compressed
+    style: compressed
 
 title: zplug
 author:
