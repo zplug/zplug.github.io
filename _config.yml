@@ -1,0 +1,11 @@
+encoding: utf-8
+exclude: [".gitignore", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+sass:
+    style: compressed
+
+title: zplug
+author:
+description:
+
+# Google Analytics
+tracking_id:
